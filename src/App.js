@@ -21,7 +21,7 @@ function App() {
               <div className="app_main_innerText_top2">CAKE FOR YOU </div>
             </div>
             <div className="app_main_innerText_low">
-              <span>READY IN 60 SECONDS .</span>
+              <span>READY IN 60 SECONDS</span>
             </div>
           </div>
           <div className="app_main_inner_button">place order</div>
