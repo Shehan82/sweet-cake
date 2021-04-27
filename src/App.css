@@ -14,6 +14,69 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
+
+.app_navBar {
+  position: relative;
+  border: 2px solid red;
+  height: 80px;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding-top: 15px;
+}
+.app_navBar_header {
+  position: relative;
+  font-size: 50px;
+  animation: mymove 5s infinite;
+
+  color: white;
+  border: 2px solid red;
+  font-family: "Kanit", sans-serif;
+}
+
+@keyframes mymove {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.app_navBar_menu {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  padding-right: 20px;
+  position: absolute;
+  right: 0;
+}
+.app_navBar_menu_text {
+  font-size: 35px;
+  color: white;
+  margin-right: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.app_navBar_menu_icon {
+  color: white;
+}
+
 .app_next {
   border: 5px solid red;
   height: 100vh;
