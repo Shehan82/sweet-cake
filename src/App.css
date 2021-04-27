@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.05)
     ),
-    url("./assets//images/cake.jpg");
+    url("./assets/images/cake.jpg");
 
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center;
@@ -88,7 +88,7 @@
 
 .app_main_inner {
   /* border: 2px solid red; */
-  width: 900px;
+  width: 800px;
   height: 400px;
   margin-left: 150px;
   margin-top: 200px;
@@ -134,7 +134,97 @@
   background-color: rgb(187, 35, 35);
 }
 
-.app_next {
-  border: 5px solid red;
+.app_second {
+  background-color: black;
   height: 100vh;
+  color: white;
+}
+
+.app_second_header {
+  /* border: 2px solid red; */
+  font-family: "Kanit", sans-serif;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+/* item component css */
+
+.item_container {
+  border-bottom: 8px solid rgba(245, 160, 3, 0.9);
+  border-right: 4px solid rgba(245, 160, 3, 0.9);
+  width: 400px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image_container,
+img {
+  width: 350px;
+  height: 350px;
+}
+
+.image_container {
+  /* border: 2px solid red; */
+}
+.details_container {
+  /* border: 2px solid red; */
+  width: 350px;
+}
+
+.details_container_name {
+  /* border: 2px solid red; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+
+  font-family: "Kanit", sans-serif;
+  margin-top: 20px;
+}
+
+.details_container_desc {
+  /* border: 2px solid red; */
+  padding: 5px;
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+}
+.details_container_price {
+  /* border: 2px solid red; */
+  padding: 5px;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+}
+
+.button_container {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: rgb(187, 35, 35);
+}
+
+.app_second_itemBox {
+  /* border: 2px solid red; */
+  width: 1600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  justify-content: space-around;
 }
