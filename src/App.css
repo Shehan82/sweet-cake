@@ -17,7 +17,7 @@
 
 .app_navBar {
   position: relative;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 80px;
   padding: 10px;
   padding-left: 20px;
@@ -32,7 +32,7 @@
   animation: mymove 5s infinite;
 
   color: white;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-family: "Kanit", sans-serif;
 }
 
@@ -56,18 +56,27 @@
 }
 
 .app_navBar_menu {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 35px;
   padding: 10px;
-  padding-right: 20px;
+  width: 120px;
   position: absolute;
   right: 0;
+  right: 20px;
+  background-color: rgba(245, 160, 3, 0.7);
+  /* border-radius: 20px; */
+  cursor: pointer;
+}
+
+.app_navBar_menu:hover {
+  background-color: rgba(245, 160, 3, 0.9);
+  /* border-radius: 20px; */
 }
 .app_navBar_menu_text {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   margin-right: 10px;
   font-family: "Kanit", sans-serif;
@@ -75,6 +84,54 @@
 
 .app_navBar_menu_icon {
   color: white;
+}
+
+.app_main_inner {
+  /* border: 2px solid red; */
+  width: 900px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 200px;
+  color: white;
+}
+
+.app_main_innerText {
+  /* border: 2px solid red; */
+  font-family: "Kanit", sans-serif;
+}
+
+.app_main_innerText_top {
+  font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 8px solid rgba(245, 160, 3, 0.9);
+  border-right: 4px solid rgba(245, 160, 3, 0.9);
+  margin-bottom: 20px;
+}
+.app_main_innerText_top1 {
+  margin-bottom: -40px;
+}
+
+.app_main_innerText_top2 {
+  margin-bottom: 0px;
+}
+
+.app_main_innerText_low {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.app_main_inner_button {
+  /* border: 2px solid red; */
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  background-color: rgb(187, 35, 35);
 }
 
 .app_next {
