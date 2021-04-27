@@ -34,19 +34,19 @@ function App() {
             imgUrl="https://i.ibb.co/9G6VGpH/pexels-pranjall-kumar-7381533.jpg"
             name="Sweet Mingle"
             desc="The very sweet Italian cake"
-            price="$ 19"
+            price="$ 23"
           />
           <Item
             imgUrl="https://i.ibb.co/VT7K0TD/pexels-nataliya-vaitkevich-4692169.jpg"
             name="Sweet Mingle"
             desc="The very sweet Italian cake"
-            price="$ 19"
+            price="$ 18"
           />
           <Item
             imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
             name="Sweet Mingle"
             desc="The very sweet Italian cake"
-            price="$ 19"
+            price="$ 16"
           />
         </div>
       </div>

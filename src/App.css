@@ -1,6 +1,7 @@
 .app_main {
   /* border: 5px solid red; */
-  height: 100vh;
+  /* height: 100vh; */
+  height: 1000px;
 
   background-image: linear-gradient(
       to right,
@@ -67,6 +68,7 @@
   right: 0;
   right: 20px;
   background-color: rgba(245, 160, 3, 0.7);
+
   /* border-radius: 20px; */
   cursor: pointer;
 }
@@ -119,6 +121,7 @@
 .app_main_innerText_low {
   font-size: 40px;
   margin-bottom: 30px;
+  transition-duration: 2s;
 }
 
 .app_main_inner_button {
@@ -136,8 +139,9 @@
 
 .app_second {
   background-color: black;
-  height: 100vh;
+  /* height: 100vh; */
   color: white;
+  padding-bottom: 80px;
 }
 
 .app_second_header {
@@ -151,7 +155,66 @@
   padding-top: 30px;
 }
 
-/* item component css */
+@media only screen and (max-width: 990px) {
+  .app_main_inner {
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    transition: 1s;
+  }
+
+  .app_main_innerText_top {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 8px solid rgba(245, 160, 3, 0.9);
+    border-right: 4px solid rgba(245, 160, 3, 0.9);
+    margin-bottom: 50px;
+  }
+  .app_main_innerText_top1 {
+    margin-bottom: -20px;
+  }
+
+  .app_main_innerText_top2 {
+    margin-bottom: 0px;
+  }
+
+  .app_main_innerText_low {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+  }
+
+  .app_main_inner_button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    transition: all 2s ease-in-out;
+  }
+
+  .app_second {
+    background-color: black;
+    /* height: 100vh; */
+    color: white;
+    padding-bottom: 80px;
+  }
+
+  .app_second_header {
+    /* border: 2px solid red; */
+    font-family: "Kanit", sans-serif;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 30px;
+  }
+}
+
+/* item component css////////////////////////////////////////////////////////////////////////////////// */
 
 .item_container {
   border-bottom: 8px solid rgba(245, 160, 3, 0.9);
@@ -169,9 +232,6 @@ img {
   height: 350px;
 }
 
-.image_container {
-  /* border: 2px solid red; */
-}
 .details_container {
   /* border: 2px solid red; */
   width: 350px;
@@ -227,4 +287,48 @@ img {
   margin-right: auto;
   margin-top: 50px;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 1600px) {
+  .item_container {
+    width: 300px;
+    height: 640px;
+  }
+
+  .app_second_itemBox {
+    /* border: 2px solid red; */
+    width: 98vw;
+    display: flex;
+  }
+  .image_container,
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .item_container {
+    width: 400px;
+    height: 750px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .app_second_itemBox {
+    width: 96vw;
+    display: flex;
+  }
+  .image_container,
+  img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .app_second_itemBox {
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
