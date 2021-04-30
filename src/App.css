@@ -152,7 +152,7 @@
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -309,7 +309,73 @@ img {
   margin-top: 50px;
   justify-content: space-around;
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+.app_third {
+  margin-top: 150px;
+}
 
+.app_third_photoBox {
+  height: 700px;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./assets/images/cotd.jpg");
+
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app_third_detailsBox {
+  /* border: 2px solid red; */
+  height: 300px;
+  width: 800px;
+}
+.detailsBox_header {
+  /* border: 2px solid red; */
+  font-size: 80px;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.detailsBox_content {
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.detailsBox_buttonContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.detailsBox_button {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  color: black;
+  background-color: rgb(228, 188, 13);
+}
+
+.app_fourth {
+  margin-top: 50px;
+}
+
+/* //////////////////////////////////////////////// */
 @media only screen and (max-width: 1600px) {
   .item_container {
     width: 300px;
@@ -368,6 +434,9 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .app_main {
+    height: 750px;
+  }
   .app_navBar_menu {
     /* border: 2px solid red; */
 

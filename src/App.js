@@ -27,7 +27,7 @@ function App() {
           <div className="app_main_inner_button">place order</div>
         </div>
       </div>
-      <div className="app_second">
+      <div className="app_second app_second_only">
         <div className="app_second_header">Choose your favourite</div>
         <div className="app_second_itemBox">
           <Item
@@ -48,6 +48,42 @@ function App() {
             desc="The very sweet Italian cake"
             price="$ 16"
           />
+        </div>
+        <div className="app_third">
+          <div className="app_third_photoBox">
+            <div className="app_third_detailsBox">
+              <div className="detailsBox_header">Pizza of the Day</div>
+              <div className="detailsBox_content">
+                Cake with donut with Grapes
+              </div>
+              <div className="detailsBox_buttonContainer">
+                <div className="detailsBox_button">Order now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="app_second app_fourth">
+          <div className="app_second_header">Sweet treats for you</div>
+          <div className="app_second_itemBox">
+            <Item
+              imgUrl="https://i.ibb.co/9G6VGpH/pexels-pranjall-kumar-7381533.jpg"
+              name="Sweet Mingle"
+              desc="The very sweet Italian cake"
+              price="$ 23"
+            />
+            <Item
+              imgUrl="https://i.ibb.co/VT7K0TD/pexels-nataliya-vaitkevich-4692169.jpg"
+              name="Sweet Mingle"
+              desc="The very sweet Italian cake"
+              price="$ 18"
+            />
+            <Item
+              imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
+              name="Sweet Mingle"
+              desc="The very sweet Italian cake"
+              price="$ 16"
+            />
+          </div>
         </div>
       </div>
     </div>
