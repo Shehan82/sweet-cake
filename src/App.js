@@ -30,7 +30,7 @@ function App() {
       <div className="app_second app_second_only">
         <div className="app_second_header">Choose your favourite</div>
         <div className="box">
-          <div className="app_second_itemBox">
+          <div className="app_second_itemBox app_slider_one">
             <Item
               imgUrl="https://i.ibb.co/9G6VGpH/pexels-pranjall-kumar-7381533.jpg"
               name="Sweet Mingle"
@@ -85,6 +85,12 @@ function App() {
               desc="The very sweet Italian cake"
               price="$ 1000"
             />
+            <Item
+              imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
+              name="Sweet Mingle"
+              desc="The very sweet Italian cake"
+              price="$ 1000"
+            />
           </div>
         </div>
 
@@ -103,7 +109,7 @@ function App() {
         </div>
         <div className="app_second app_fourth">
           <div className="app_second_header">Sweet treats for you</div>
-          <div className="app_second_itemBox">
+          <div className="app_second_itemBox app_slider_two">
             <Item
               imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
               name="Sweet Mingle"
