@@ -162,84 +162,16 @@
   margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 990px) {
-  .app_navBar_menu {
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 18px;
-    padding: 10px;
-    width: 90px;
-  }
+.btm_products {
+}
 
-  .app_navBar_menu:hover {
-    background-color: rgba(245, 160, 3, 0.9);
-    /* border-radius: 20px; */
-  }
-  .app_navBar_menu_text {
-    font-size: 20px;
-    color: white;
-    margin-right: 10px;
-    font-family: "Kanit", sans-serif;
-  }
+.btm_branches {
+}
 
-  .app_main_inner {
-    /* border: 2px solid red; */
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    transition: 1s;
-  }
+.btm_address {
+}
 
-  .app_main_innerText_top {
-    font-size: 60px;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 8px solid rgba(245, 160, 3, 0.9);
-    border-right: 4px solid rgba(245, 160, 3, 0.9);
-    margin-bottom: 50px;
-  }
-  .app_main_innerText_top1 {
-    margin-bottom: -20px;
-  }
-
-  .app_main_innerText_top2 {
-    margin-bottom: 0px;
-  }
-
-  .app_main_innerText_low {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    margin-bottom: 80px;
-  }
-
-  .app_main_inner_button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    transition: all 2s ease-in-out;
-  }
-
-  .app_second {
-    background-color: black;
-    /* height: 100vh; */
-    color: white;
-    padding-bottom: 80px;
-  }
-
-  .app_second_header {
-    /* border: 2px solid red; */
-    font-family: "Kanit", sans-serif;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    padding-top: 30px;
-  }
+.btm_contacts {
 }
 
 /* item component css////////////////////////////////////////////////////////////////////////////////// */
@@ -372,69 +304,6 @@ img {
     margin-left: -3000px;
   }
 }
-@media only screen and (max-width: 1850px) {
-  @keyframes move {
-    0% {
-      margin-left: -3100px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    100% {
-      margin-left: -3100px;
-    }
-  }
-  @keyframes moved {
-    0% {
-      margin-left: -1080px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    100% {
-      margin-left: -1080px;
-    }
-  }
-}
-
-@media only screen and (max-width: 1720px) {
-  @keyframes move {
-    0% {
-      margin-left: -3200px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    100% {
-      margin-left: -3200px;
-    }
-  }
-
-  @keyframes moved {
-    0% {
-      margin-left: -1180px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    100% {
-      margin-left: -1180px;
-    }
-  }
-}
-@media only screen and (max-width: 1600px) {
-  @keyframes move {
-    0% {
-      margin-left: -2400px;
-    }
-    50% {
-      margin-left: 0px;
-    }
-    100% {
-      margin-left: -2400px;
-    }
-  }
-}
 
 .app_second_itemBox::-webkit-scrollbar {
   display: none;
@@ -514,7 +383,151 @@ img {
   margin-top: 50px;
 }
 
-/* //////////////////////////////////////////////// */
+/* media queries---------------------------------------------------- */
+@media only screen and (max-width: 990px) {
+  .app_navBar_menu {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    padding: 10px;
+    width: 90px;
+  }
+
+  .app_navBar_menu:hover {
+    background-color: rgba(245, 160, 3, 0.9);
+    /* border-radius: 20px; */
+  }
+  .app_navBar_menu_text {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+    font-family: "Kanit", sans-serif;
+  }
+
+  .app_main_inner {
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    transition: 1s;
+  }
+
+  .app_main_innerText_top {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 8px solid rgba(245, 160, 3, 0.9);
+    border-right: 4px solid rgba(245, 160, 3, 0.9);
+    margin-bottom: 50px;
+  }
+  .app_main_innerText_top1 {
+    margin-bottom: -20px;
+  }
+
+  .app_main_innerText_top2 {
+    margin-bottom: 0px;
+  }
+
+  .app_main_innerText_low {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+  }
+
+  .app_main_inner_button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    transition: all 2s ease-in-out;
+  }
+
+  .app_second {
+    background-color: black;
+    /* height: 100vh; */
+    color: white;
+    padding-bottom: 80px;
+  }
+
+  .app_second_header {
+    /* border: 2px solid red; */
+    font-family: "Kanit", sans-serif;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  @keyframes move {
+    0% {
+      margin-left: -3100px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -3100px;
+    }
+  }
+  @keyframes moved {
+    0% {
+      margin-left: -1080px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1080px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1720px) {
+  @keyframes move {
+    0% {
+      margin-left: -3200px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -3200px;
+    }
+  }
+
+  @keyframes moved {
+    0% {
+      margin-left: -1180px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1180px;
+    }
+  }
+}
+@media only screen and (max-width: 1600px) {
+  @keyframes move {
+    0% {
+      margin-left: -2400px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2400px;
+    }
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   .item_container {
     width: 300px;
@@ -568,7 +581,6 @@ img {
     transition: 1s;
   }
 
-  /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
   .app_third {
     margin-top: 150px;
     transition: 1s;
