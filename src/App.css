@@ -312,6 +312,7 @@ img {
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 .app_third {
   margin-top: 150px;
+  /* border: 2px solid blue; */
 }
 
 .app_third_photoBox {
@@ -369,6 +370,7 @@ img {
   margin-top: 20px;
   color: black;
   background-color: rgb(228, 188, 13);
+  transition: all 1s ease-in-out;
 }
 
 .app_fourth {
@@ -431,9 +433,77 @@ img {
     font-size: 45px;
     transition: 1s;
   }
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .app_third {
+    margin-top: 150px;
+    transition: 1s;
+  }
+
+  .app_third_detailsBox {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 800px;
+  }
+  .detailsBox_header {
+    font-size: 70px;
+  }
+  .detailsBox_content {
+    font-size: 28px;
+  }
+
+  .detailsBox_buttonContainer {
+    margin-top: 20px;
+  }
+  .detailsBox_button {
+    width: 200px;
+    transition: all 1s ease-in-out;
+  }
+
+  .app_fourth {
+    margin-top: 50px;
+  }
+
+  /* //////////////////////////////////////////////// */
 }
 
 @media only screen and (max-width: 600px) {
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .app_third {
+    margin-top: 80px;
+    transition: 1s;
+  }
+
+  .app_third_photoBox {
+    height: 500px;
+  }
+
+  .app_third_detailsBox {
+    height: 300px;
+    width: 800px;
+  }
+  .detailsBox_header {
+    font-size: 50px;
+  }
+  .detailsBox_content {
+    font-size: 20px;
+  }
+
+  .detailsBox_buttonContainer {
+    margin-top: 20px;
+  }
+  .detailsBox_button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+  }
+
+  .app_fourth {
+    margin-top: 50px;
+  }
+
+  /* //////////////////////////////////////////////// */
   .app_main {
     height: 750px;
   }
