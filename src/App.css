@@ -141,7 +141,7 @@
   background-color: black;
   /* height: 100vh; */
   color: white;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .app_second_header {
@@ -153,6 +153,13 @@
   align-items: center;
   font-size: 50px;
   padding-top: 100px;
+}
+
+.app_second_fifth {
+  background-color: yellow;
+  height: 200px;
+  margin-top: 300px;
+  margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -305,6 +312,11 @@ img {
 /* slider properties============================================== */
 .box {
   overflow: hidden;
+  /* width: 1600px; */
+  margin-right: 60px;
+  margin-left: 60px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   /* border: 2px solid blue; */
 }
 
@@ -318,9 +330,17 @@ img {
   /* justify-content: space-around; */
 }
 
+.app_slider_two {
+  animation-name: moved;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-direction: left;
+  animation-timing-function: linear;
+}
+
 .app_slider_one {
   animation-name: move;
-  animation-duration: 50s;
+  animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-direction: right;
   animation-timing-function: linear;
@@ -330,6 +350,17 @@ img {
   animation-play-state: paused;
 }
 
+@keyframes moved {
+  0% {
+    margin-left: -1000px;
+  }
+  50% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
 @keyframes move {
   0% {
     margin-left: -3000px;
@@ -353,6 +384,17 @@ img {
       margin-left: -3100px;
     }
   }
+  @keyframes moved {
+    0% {
+      margin-left: -1080px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1080px;
+    }
+  }
 }
 
 @media only screen and (max-width: 1720px) {
@@ -365,6 +407,18 @@ img {
     }
     100% {
       margin-left: -3200px;
+    }
+  }
+
+  @keyframes moved {
+    0% {
+      margin-left: -1180px;
+    }
+    50% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -1180px;
     }
   }
 }

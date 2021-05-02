@@ -109,26 +109,52 @@ function App() {
         </div>
         <div className="app_second app_fourth">
           <div className="app_second_header">Sweet treats for you</div>
-          <div className="app_second_itemBox app_slider_two">
-            <Item
-              imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
-              name="Sweet Mingle"
-              desc="The very sweet Italian cake"
-              price="$ 23"
-            />
-            <Item
-              imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
-              name="Sweet Mingle"
-              desc="The very sweet Italian cake"
-              price="$ 18"
-            />
-            <Item
-              imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
-              name="Sweet Mingle"
-              desc="The very sweet Italian cake"
-              price="$ 16"
-            />
+          <div className="box">
+            <div className="app_second_itemBox app_slider_two">
+              <Item
+                imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 23"
+              />
+              <Item
+                imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 18"
+              />
+              <Item
+                imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 16"
+              />
+              <Item
+                imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 23"
+              />
+              <Item
+                imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 18"
+              />
+              <Item
+                imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
+                name="Sweet Mingle"
+                desc="The very sweet Italian cake"
+                price="$ 16"
+              />
+            </div>
           </div>
+        </div>
+        <div className="app_second_fifth">
+          <div className="btm_products"></div>
+          <div className="btm_branches"></div>
+          <div className="btm_address"></div>
+          <div className="btm_contacts"></div>
         </div>
       </div>
     </div>
