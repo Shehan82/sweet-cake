@@ -52,7 +52,7 @@ function App() {
         <div className="app_third">
           <div className="app_third_photoBox">
             <div className="app_third_detailsBox">
-              <div className="detailsBox_header">Pizza of the Day</div>
+              <div className="detailsBox_header">Cake of the Day</div>
               <div className="detailsBox_content">
                 Cake with donut with Grapes
               </div>
@@ -66,19 +66,19 @@ function App() {
           <div className="app_second_header">Sweet treats for you</div>
           <div className="app_second_itemBox">
             <Item
-              imgUrl="https://i.ibb.co/9G6VGpH/pexels-pranjall-kumar-7381533.jpg"
+              imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
               name="Sweet Mingle"
               desc="The very sweet Italian cake"
               price="$ 23"
             />
             <Item
-              imgUrl="https://i.ibb.co/VT7K0TD/pexels-nataliya-vaitkevich-4692169.jpg"
+              imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
               name="Sweet Mingle"
               desc="The very sweet Italian cake"
               price="$ 18"
             />
             <Item
-              imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
+              imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
               name="Sweet Mingle"
               desc="The very sweet Italian cake"
               price="$ 16"
