@@ -10,7 +10,7 @@ function App() {
           <div className="app_navBar_menu">
             <div className="app_navBar_menu_text">Menu</div>
             <div className="app_navBar_menu_icon">
-              <CakeIcon style={{ fontSize: 30 }} />
+              <CakeIcon style={{ fontSize: 20 }} />
             </div>
           </div>
         </div>

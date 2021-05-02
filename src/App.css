@@ -481,9 +481,14 @@ img {
   .app_third_detailsBox {
     height: 300px;
     width: 800px;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .detailsBox_header {
-    font-size: 50px;
+    font-size: 41px;
   }
   .detailsBox_content {
     font-size: 20px;
@@ -504,19 +509,26 @@ img {
   }
 
   /* //////////////////////////////////////////////// */
+  .app_navBar_header {
+    font-size: 33px;
+    transition: 1s;
+  }
+
   .app_main {
     height: 750px;
   }
   .app_navBar_menu {
     /* border: 2px solid red; */
 
-    height: 18px;
+    height: 30px;
     padding: 10px;
-    width: 70px;
+    width: 30px;
+    border-radius: 30px;
   }
 
   .app_navBar_menu_text {
-    font-size: 16px;
+    font-size: 15px;
+    display: none;
   }
 
   .app_main_inner {
@@ -524,7 +536,7 @@ img {
     width: 270px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     transition: 1s;
   }
 
@@ -614,5 +626,39 @@ img {
 
   .app_second_itemBox {
     margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  /* .detailsBox_buttonContainer {
+    border: 2px solid teal;
+    margin-top: 0px;
+  }
+  .detailsBox_button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+  } */
+
+  .app_main_inner_button {
+    /* border: 2px solid red; */
+    width: 160px;
+    height: 40px;
+
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .app_second_header {
+    font-size: 26px;
+  }
+
+  .detailsBox_header {
+    /* border: 2px solid red; */
+    font-size: 34px;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: center;
   }
 }
