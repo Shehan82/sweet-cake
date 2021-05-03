@@ -176,7 +176,7 @@ function App() {
             <span className="btm_content">Galle</span>
           </div>
           <div className="btm_address">
-            <span className="btm_header">Main Branch Address</span>
+            <span className="btm_header">Address</span>
             <span className="btm_content">No: 56</span>
             <span className="btm_content">Parakumba Road</span>
             <span className="btm_content">Kurunegala</span>
