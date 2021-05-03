@@ -155,25 +155,6 @@
   padding-top: 100px;
 }
 
-.app_second_fifth {
-  background-color: yellow;
-  height: 200px;
-  margin-top: 300px;
-  margin-bottom: 0px;
-}
-
-.btm_products {
-}
-
-.btm_branches {
-}
-
-.btm_address {
-}
-
-.btm_contacts {
-}
-
 /* item component css////////////////////////////////////////////////////////////////////////////////// */
 
 .item_container {
@@ -381,6 +362,51 @@ img {
 
 .app_fourth {
   margin-top: 50px;
+}
+
+.app_second_fifth {
+  background-color: black;
+  border-top: 1px solid rgba(245, 160, 3, 0.9);
+  height: 450px;
+  margin-top: 300px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Kanit", sans-serif;
+}
+
+.btm_products,
+.btm_branches,
+.btm_address,
+.btm_contacts {
+  margin-top: 40px;
+  width: 300px;
+  height: 350px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.btm_header {
+  border: 2px solid red;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.btm_content {
+  border: 2px solid red;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.btm_branches {
+}
+
+.btm_address {
+}
+
+.btm_contacts {
 }
 
 /* media queries---------------------------------------------------- */

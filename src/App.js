@@ -1,6 +1,15 @@
 import "./App.css";
 import CakeIcon from "@material-ui/icons/Cake";
 import Item from "./Item";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 function App() {
   return (
     <div className="app">
@@ -151,10 +160,46 @@ function App() {
           </div>
         </div>
         <div className="app_second_fifth">
-          <div className="btm_products"></div>
-          <div className="btm_branches"></div>
-          <div className="btm_address"></div>
-          <div className="btm_contacts"></div>
+          <div className="btm_products">
+            <span className="btm_header">Products</span>
+            <span className="btm_content">Cakes</span>
+            <span className="btm_content">Mufffins</span>
+            <span className="btm_content">Baked Goods</span>
+            <span className="btm_content">Sweet Goods</span>
+          </div>
+          <div className="btm_branches">
+            <span className="btm_header">Branches</span>
+            <span className="btm_content">Kurunegala</span>
+            <span className="btm_content">Colombo</span>
+            <span className="btm_content">Kandy</span>
+            <span className="btm_content">Mathara</span>
+            <span className="btm_content">Galle</span>
+          </div>
+          <div className="btm_address">
+            <span className="btm_header">Main Branch Address</span>
+            <span className="btm_content">No: 56</span>
+            <span className="btm_content">Parakumba Road</span>
+            <span className="btm_content">Kurunegala</span>
+          </div>
+          <div className="btm_contacts">
+            <span className="btm_header">Contact Us</span>
+            <span className="btm_content">
+              {" "}
+              <FontAwesomeIcon icon={faFacebook} size={"2x"} />
+            </span>
+            <span className="btm_content">
+              <FontAwesomeIcon icon={faTwitter} size={"2x"} />
+            </span>
+            <span className="btm_content">
+              <FontAwesomeIcon icon={faEnvelope} size={"2x"} />
+            </span>
+            <span className="btm_content">
+              <FontAwesomeIcon icon={faInstagram} size={"2x"} />
+            </span>
+            <span className="btm_content">
+              <FontAwesomeIcon icon={faWhatsapp} size={"2x"} />
+            </span>
+          </div>
         </div>
       </div>
     </div>
