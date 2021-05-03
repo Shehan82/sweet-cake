@@ -156,8 +156,6 @@
   padding-top: 100px;
 }
 
-/* item component css////////////////////////////////////////////////////////////////////////////////// */
-
 .item_container {
   border-bottom: 8px solid rgba(245, 160, 3, 0.9);
   border-right: 4px solid rgba(245, 160, 3, 0.9);
@@ -227,13 +225,8 @@ img {
 /* slider properties============================================== */
 .box {
   overflow: hidden;
-  /* width: 1600px; */
-
   margin-right: 200px;
   margin-left: 200px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
-  /* border: 2px solid blue; */
 }
 
 .app_second_itemBox {
@@ -292,14 +285,12 @@ img {
 .app_second_itemBox::-webkit-scrollbar {
   display: none;
 }
-/* =============================================================================== */
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .app_second_itemBox {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .app_third {
   margin-top: 150px;
   /* border: 2px solid blue; */
@@ -315,9 +306,9 @@ img {
     ),
     url("./assets/images/cotd.jpg");
 
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background-color: #cccccc;
   background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -415,14 +406,14 @@ img {
 @media only screen and (max-width: 700px) {
   .app_second_fifth {
     background-color: black;
-    border-top: 1px solid rgba(245, 160, 3, 0.9);
+
     height: fit-content;
     margin-top: 100px;
     margin-bottom: 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: "Kanit", sans-serif;
+
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -612,38 +603,12 @@ img {
   }
 }
 
-@media only screen and (max-width: 1050px) {
-  /* .item_container {
-    width: 400px;
-    height: 750px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  
-  .image_container,
-  img {
-    width: 350px;
-    height: 350px;
-  } */
-
-  /* .app_second_itemBox {
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  } */
-}
-
 @media only screen and (max-width: 800px) {
   .box {
     overflow: hidden;
-    /* width: 1600px; */
+
     margin-right: 60px;
     margin-left: 60px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    /* border: 2px solid blue; */
   }
   .app_navBar_header {
     font-size: 40px;
@@ -682,12 +647,9 @@ img {
   .app_fourth {
     margin-top: 50px;
   }
-
-  /* //////////////////////////////////////////////// */
 }
 
 @media only screen and (max-width: 600px) {
-  /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
   .app_third {
     margin-top: 80px;
     transition: 1s;
@@ -727,7 +689,6 @@ img {
     margin-top: 50px;
   }
 
-  /* //////////////////////////////////////////////// */
   .app_navBar_header {
     font-size: 33px;
     transition: 1s;
@@ -798,8 +759,6 @@ img {
     font-size: 30px;
     margin-bottom: -30px;
   }
-
-  /* /////////////////// */
 
   .item_container {
     width: 250px;
