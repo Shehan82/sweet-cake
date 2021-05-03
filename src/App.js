@@ -108,7 +108,7 @@ function App() {
             <div className="app_third_detailsBox">
               <div className="detailsBox_header">Cake of the Day</div>
               <div className="detailsBox_content">
-                Cake with donut with Grapes
+                Harvest grapes olive oil cake
               </div>
               <div className="detailsBox_buttonContainer">
                 <div className="detailsBox_button">Order now</div>
@@ -122,38 +122,38 @@ function App() {
             <div className="app_second_itemBox app_slider_two">
               <Item
                 imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 23"
               />
               <Item
                 imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 18"
               />
               <Item
                 imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 16"
               />
               <Item
                 imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 23"
               />
               <Item
                 imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 18"
               />
               <Item
                 imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
-                name="Sweet Mingle"
-                desc="The very sweet Italian cake"
+                name="Sweet Treats"
+                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
                 price="$ 16"
               />
             </div>

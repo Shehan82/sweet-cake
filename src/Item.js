@@ -11,9 +11,7 @@ function Item(props) {
       </div>
       <div className="details_container">
         <div className="details_container_name">{props.name}</div>
-        <div className="details_container_desc">
-          {'"  ' + props.desc + '  "'}
-        </div>
+        <div className="details_container_desc">{props.desc}</div>
         <div className="details_container_price">{props.price}</div>
       </div>
       <div className="button_container">Add to Cart</div>
