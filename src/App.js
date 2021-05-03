@@ -92,13 +92,13 @@ function App() {
               imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
               name="Sweet Mingle"
               desc="The very sweet Italian cake"
-              price="$ 1000"
+              price="$ 10"
             />
             <Item
               imgUrl="https://i.ibb.co/89XvvvK/pexels-irwan-fauzi-4858510.jpg"
               name="Sweet Mingle"
               desc="The very sweet Italian cake"
-              price="$ 1000"
+              price="$ 13"
             />
           </div>
         </div>
