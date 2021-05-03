@@ -607,8 +607,8 @@ img {
   .box {
     overflow: hidden;
 
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .app_navBar_header {
     font-size: 40px;
