@@ -135,6 +135,7 @@
   font-size: 24px;
   margin-top: 20px;
   background-color: rgb(187, 35, 35);
+  cursor: pointer;
 }
 
 .app_second {
@@ -220,6 +221,7 @@ img {
   font-size: 20px;
   margin-top: 20px;
   background-color: rgb(187, 35, 35);
+  cursor: pointer;
 }
 
 /* slider properties============================================== */
@@ -359,6 +361,7 @@ img {
   color: black;
   background-color: rgb(228, 188, 13);
   transition: all 1s ease-in-out;
+  cursor: pointer;
 }
 
 .app_fourth {
@@ -403,13 +406,9 @@ img {
   font-size: 18px;
 }
 
-.btm_branches {
-}
-
-.btm_address {
-}
-
-.btm_contacts {
+.btm_contacts > .btm_content {
+  cursor: pointer;
+  width: fit-content;
 }
 
 /* media queries---------------------------------------------------- */
