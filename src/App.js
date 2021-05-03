@@ -123,37 +123,37 @@ function App() {
               <Item
                 imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 23"
               />
               <Item
                 imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 18"
               />
               <Item
                 imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 16"
               />
               <Item
                 imgUrl="https://i.ibb.co/5TRJwk3/pexels-cesar-de-la-cruz-3185509.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 23"
               />
               <Item
                 imgUrl="https://i.ibb.co/59DFFT5/pexels-elif-tekkaya-5765719.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 18"
               />
               <Item
                 imgUrl="https://i.ibb.co/xS8XfVh/pexels-mauro-savoca-5995769.jpg"
                 name="Sweet Treats"
-                desc="A dense chocolate cake for those of us who can't tolerate wheat or gluten"
+                desc="A dense chocolate cake"
                 price="$ 16"
               />
             </div>
