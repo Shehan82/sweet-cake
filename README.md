@@ -1,6 +1,10 @@
 # Sweet Cake
 
-Fully responsive Landing Page for Cake Shop Using React
+Fully responsive Landing Page for Cake Shop
+
+Technology - React
+
+link - https://sweet-cake.herokuapp.com/
 
 ![qq](https://user-images.githubusercontent.com/55059232/116848327-fb8df600-ac09-11eb-83e5-aadf75f2e55a.png)
 ![sss](https://user-images.githubusercontent.com/55059232/116848381-24ae8680-ac0a-11eb-9877-47da66dbd421.png)
