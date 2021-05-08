@@ -185,19 +185,19 @@ function App() {
             <span className="btm_header">Contact Us</span>
             <span className="btm_content">
               {" "}
-              <FontAwesomeIcon icon={faFacebook} size={"2x"} />
+              <FontAwesomeIcon icon={faFacebook} className="icons" />
             </span>
             <span className="btm_content">
-              <FontAwesomeIcon icon={faTwitter} size={"2x"} />
+              <FontAwesomeIcon icon={faTwitter} className="icons" />
             </span>
             <span className="btm_content">
-              <FontAwesomeIcon icon={faEnvelope} size={"2x"} />
+              <FontAwesomeIcon icon={faEnvelope} className="icons" />
             </span>
             <span className="btm_content">
-              <FontAwesomeIcon icon={faInstagram} size={"2x"} />
+              <FontAwesomeIcon icon={faInstagram} className="icons" />
             </span>
             <span className="btm_content">
-              <FontAwesomeIcon icon={faWhatsapp} size={"2x"} />
+              <FontAwesomeIcon icon={faWhatsapp} className="icons" />
             </span>
           </div>
         </div>

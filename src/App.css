@@ -370,6 +370,7 @@ img {
   font-family: "Kanit", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
+  /* border: 2px solid red; */
 }
 
 .btm_products,
@@ -401,10 +402,12 @@ img {
   cursor: pointer;
   width: fit-content;
 }
-
+.icons {
+  font-size: 30px;
+}
 /* media queries---------------------------------------------------- */
 @media only screen and (max-width: 700px) {
-  .app_second_fifth {
+  /* .app_second_fifth {
     background-color: black;
 
     height: fit-content;
@@ -425,9 +428,103 @@ img {
     margin-top: 50px;
     width: 200px;
     height: fit-content;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
+  } */
+
+  .app_second_fifth {
+    background-color: black;
+    border-top: 1px solid rgba(245, 160, 3, 0.9);
+    height: 300px;
+    margin-top: 100px;
+
+    /* border: 2px solid red; */
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+
+  .btm_products,
+  .btm_branches,
+  .btm_address,
+  .btm_contacts {
+    margin-top: 50px;
+    width: 100px;
+    height: 240px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btm_header {
+    /* border: 2px solid red; */
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .btm_content {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .btm_contacts > .btm_content {
+    cursor: pointer;
+    width: fit-content;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .app_second_fifth {
+    background-color: black;
+    border-top: 1px solid rgba(245, 160, 3, 0.9);
+    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Kanit", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px solid red; */
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+
+  .btm_products,
+  .btm_branches,
+  .btm_address,
+  .btm_contacts {
+    margin-top: 30px;
+    width: 80px;
+    height: 230px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btm_header {
+    /* border: 2px solid red; */
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .btm_content {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  .btm_contacts > .btm_content {
+    cursor: pointer;
+    width: fit-content;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -756,7 +853,7 @@ img {
   .app_second_header {
     /* border: 2px solid red; */
 
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: -30px;
   }
 
